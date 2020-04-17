@@ -9,6 +9,15 @@ License: MIT License
 Description: # cm107_package_test
         Package test for cm107
         
+        ## Github Install
+        ```console
+        pip install https://github.com/cm107/cm107_package_test/archive/0.1.zip
+        ```
+        
+        ## Pypi Install
+        ```console
+        pip install cm107-package-test==0.1
+        ```
 Platform: UNKNOWN
 Classifier: Programming Language :: Python :: 3
 Classifier: License :: OSI Approved :: MIT License
