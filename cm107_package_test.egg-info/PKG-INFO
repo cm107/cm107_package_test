@@ -11,12 +11,12 @@ Description: # cm107_package_test
         
         ## Github Install
         ```console
-        pip install https://github.com/cm107/cm107_package_test/archive/master.zip
+        pip install https://github.com/cm107/cm107_package_test/archive/0.2.zip
         ```
         
         ## Pypi Install
         ```console
-        pip install cm107-package-test
+        pip install cm107-package-test==0.2
         ```
 Platform: UNKNOWN
 Classifier: Programming Language :: Python :: 3
