@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setup(
-    name='test_pkg',
+    name='cm107_test_pkg',
     version=cm107_package_test.__version__,
     description="packaging test of cm107",
     long_description=long_description,
