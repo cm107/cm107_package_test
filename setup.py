@@ -1,11 +1,12 @@
 from setuptools import setup, find_packages
+import cm107_package_test
 
 with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setup(
     name='cm107_package_test',
-    version='0.1',
+    version=cm107_package_test.__version__,
     description="packaging test of cm107",
     long_description=long_description,
     long_description_content_type="text/markdown",
@@ -29,3 +30,4 @@ setup(
     ],
     python_requires='>=3.6'
 )
+
